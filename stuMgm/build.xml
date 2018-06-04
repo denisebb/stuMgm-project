@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project name="${webapp.name}" default="start" basedir="F:\E_drive\shareSpace\build" >
     <property file="G:\lyc\development\workspace\stuMgm\build.properties" />
     <property name="complile.dir" location="${basedir}/classes"/>
@@ -8,7 +8,7 @@
 
 
    <!-- ================================= 
-          第一步：创建各类资源目录：源代码、jar库、编译中间目录、发布资源目录              
+          第1步：创建各类资源目录：源代码、jar库、编译中间目录、发布资源目录              
          ================================= -->
 
     <target name="init" description="初始化：创建各类目录">
